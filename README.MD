@@ -24,11 +24,9 @@
    6. Now type ```pip3 install -r requirements.txt``` [ btw, my code will install required libraries automatically but just to make sure everything works fine]
    7. Now run the script as ```./setup.sh OPTION``` ; OPTION is the option chosen by user how he need the output file generated of the log file. There are 2 options: ```file``` and ```email```.  
    8. The output file will be generated and filename will be in format ___keylog_starttime_endtime___.  
-   9. In case you need to mail the output, you need to do some changes in code itself. For more info, kindly visit **Steps to run** below.  
+   9. In case you need to mail the output, you need to do some changes in code as well as Google Account itself. For more info, kindly visit **Google Account customisation and File changes to be done** below.  
 
-
-
-# Steps to run
+# Google Account customisation
 
 1. The very first thing you need to do is customise your google gmail account.
 2. Visit [here](https://support.google.com/mail/answer/7126229?p=WantAuthError&visit_id=637796421626626182-1497188236&rd=2#cantsignin&zippy=%2Ci-cant-sign-in-to-my-email-client%2Cstep-change-smtp-other-settings-in-your-email-client%2Cstep-check-that-imap-is-turned-on) and check IMAP is turned ON.
@@ -37,6 +35,15 @@
 5. Now, create a new App Password by navigating [here](https://support.google.com/accounts/answer/185833)
 6. Copy the 16-character code in yellow bar and paste in [keylogger.py](https://github.com/nitinkumar30/keylogger/blob/main/keylogger.py)
 7. Now, run the code.!
+
+# File changes to be done
+
+1. Firstly you need to pass your gmail id in 9th line inside [keylogger.py](). Following is the code:
+      EMAIL_ADDRESS = "yourmainid@gmail.com"
+2. Now, you need to pass your google account password(of course you need to give and it can't be hacked as it's in your local file) in next line. 
+      EMAIL_PASSWORD = "yourgmailpass@123"
+3. If google account password doesn't work, delete the google account password and put App Password(that 16 digit code you got) in the same place.
+      EMAIL_PASSWORD = "abcdefghijklmnop"
 
 # Disclaimer
 
