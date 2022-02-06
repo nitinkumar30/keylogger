@@ -22,9 +22,17 @@
    4. Now again type ```ls -l``` to see all files with their file permissions
    5. Now type ```chmod +x setup.sh``` to give executable permission to shell\bash file  
    6. Now type ```pip3 install -r requirements.txt``` [ btw, my code will install required libraries automatically but just to make sure everything works fine]
-   7. Now run the script as ```./setup.sh OPTION``` ; OPTION is the option chosen by user how he need the output file generated of the log file. There are 2 options: ```file``` and ```email```.  
+   7. Now run the script as ```./setup.sh OPTION``` ; OPTION is the options chosen by user how he need the output file generated of the log file. There are 2 options: ```file``` and ```email```.  
    8. The output file will be generated and filename will be in format ___keylog_starttime_endtime___.  
    9. In case you need to mail the output, you need to do some changes in code as well as Google Account itself. For more info, kindly visit **Google Account customisation and File changes to be done** below.  
+   10. To stop the program simply type ```CTRL + C``` in terminal.
+2. For Windows OS
+   1. Extract the downloaded repo and open the folder in Visual Studio Code.  
+   2. Follow [this](https://stackoverflow.com/a/50527994) process or go up to **Tools used to run**  
+   3. Change the file [keylogger.py](https://github.com/nitinkumar30/keylogger/blob/main/keylogger.py) as per the instructions.  
+   4. Run the file [setup.sh](https://github.com/nitinkumar30/keylogger/blob/main/setup.sh) using the code ```./setup.sh OPTION``` ;OPTION is the options chosen by user how he need the output file generated of the log file. There are 2 options: ```file``` and ```email```.  
+   5. File will run and the output file will be mailed or saved in local directory as per the above files.  
+   6. In the end, you need to stop the program. To do so, simple type ```CTRL + C``` in terminal.  
 
 # Google Account customisation
 
