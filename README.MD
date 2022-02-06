@@ -46,12 +46,12 @@
 
 # File changes to be done
 
-1. Firstly you need to pass your gmail id in 9th line inside [keylogger.py](). Following is the code:
-      EMAIL_ADDRESS = "yourgmailid@gmail.com"
-2. Now, you need to pass your google account password(of course you need to give and it can't be hacked as it's in your local file) in next line. 
-      EMAIL_PASSWORD = "yourgmailpass@123"
-3. If google account password doesn't work, delete the google account password and put App Password(that 16 digit code you got) in the same place.
-      EMAIL_PASSWORD = "abcdefghijklmnop"
+1. Firstly you need to pass your gmail id in 9th line inside [keylogger.py](). Following is the code:  
+      ```EMAIL_ADDRESS = "yourgmailid@gmail.com"```  
+2. Now, you need to pass your google account password(of course you need to give and it can't be hacked as it's in your local file) in next line.  
+      ```EMAIL_PASSWORD = "yourgmailpass@123"```  
+3. If google account password doesn't work, delete the google account password and put App Password(that 16 digit code you got) in the same place.  
+      ```EMAIL_PASSWORD = "abcdefghijklmnop"```  
 
 # Disclaimer
 
