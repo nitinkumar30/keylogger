@@ -1,6 +1,6 @@
 # Keylogger using shell
 
-> This is a simple keylogger which logs the keystrokes by usr till the program is running.  
+> This is a simple keylogger which logs the keystrokes by user till the program is running.  
 > Mostly used language is Python but initialization can be done only with shell script.  
 > I'll upload one more simple keylogger but it's main disadvantage is the output file can't be deleted as the output file is not being closed by program.  
 > Before using this keylogger, you need to modify the program with various data which I'll be explaining later.  
