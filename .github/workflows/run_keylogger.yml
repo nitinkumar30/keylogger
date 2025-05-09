@@ -19,5 +19,5 @@ jobs:
     - name: Install dependencies
       run: python -m pip install -r requirements.txt
 
-    - name: Run tests
-      run: python keylogger.py
+    - name: Run keylogger with hardcoded argument
+      run: python keylogger.py file
